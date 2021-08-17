@@ -1,0 +1,162 @@
+body{
+    font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;  
+    font-size: 1.5rem;
+}
+/* menu principal*/
+nav{
+    text-align: center;
+    top: 0;
+}
+#menu ul {
+    display: inline-block;
+    list-style: none;
+    margin:0;
+    padding:0;
+   }
+   
+   /* items del menu */
+   
+   #menu ul li {
+    background-color: #6C63FF;
+   }
+   
+   /* enlaces del menu */
+   
+   #menu ul a {
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    font-weight:400;
+    font-size:15px;
+    padding: 20px;   
+    font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform:uppercase;
+    letter-spacing:1px;
+   }
+   
+   /* items del menu */
+   
+   #menu ul li {
+    position:relative;
+    float: left;
+    margin:0;
+    padding: 2px 20px; /* me separa las palabras del menu */
+   }
+   
+   /* efecto al pasar el ratón por los items del menu */
+   
+   #menu ul li:hover {
+    background:#5b78a7;
+   }
+/* menu desplegable */
+
+#menu ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:#eee;
+    padding:0;
+   }
+   
+   /* items del menu desplegable */
+   
+   #menu ul ul li {
+    float:none;
+    width:250px;
+   }
+   
+   /* enlaces de los items del menu desplegable */
+   
+   #menu ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+   }
+   
+   /* items del menu desplegable al pasar el ratón */
+   
+   #menu ul li:hover > ul {
+    display:block;
+   }
+.container{
+    margin: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.idea{
+    width: 30%;
+    height: 30%;
+    float: left;
+    margin-right: 50px;
+}
+h2{
+    font-size: 1.6em;
+}
+h2, p{
+    text-align: justify;
+}
+.container1{
+    padding: 10%;
+    background-color: #d5d4ee;
+}
+.button {
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+    background: #6C63FF;
+    color: white;
+    padding: 1.18em 1.32em 1.03em;
+    line-height: 1;
+    border-radius: 1em;
+    position: relative;
+    min-width: 8.23em;
+    text-decoration: none;
+    font-size: 1.25rem;
+    margin-left: 900px;
+    margin-right: 50px;
+    cursor: pointer;
+    letter-spacing:1px;
+}
+.container2{
+    margin: 10%;
+    margin-left: 10%;
+    margin-right: 10%;   
+}
+.idea1{
+    width: 30%;
+    height: 30%;
+    float: right;
+    margin-left: 50px;
+}
+.container3{
+    padding: 10%;
+    background-color: #d5d4ee;
+}
+footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    margin:2%;
+    padding:0;
+}
+#submenu{
+    display: inline-block; /*sea tratado como texto para centrar e inline para menu horizontal*/
+    text-align: center;
+    list-style: none; /* para quitar las viñetas */
+    margin:0;
+    padding:0;
+}
+#submenu a{
+    display: block; /* para que que el menu quede horizontal */
+	color: black;
+    text-decoration: none; /* Evitamos el subrallado del enlace */
+	padding: 5px;
+}
+#submenu a:hover{/* para cambiar el color a las letras al pasar mose */
+    color: #6C63FF;
+    cursor: pointer;
+  }
+#submenu li{
+    float: left;
+    padding: 2px 30px;
+}
